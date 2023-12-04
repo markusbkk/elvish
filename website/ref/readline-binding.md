@@ -17,5 +17,5 @@ Note that this will override some of the standard bindings. For example,
 rather than start location mode.
 
 See the
-[source code](https://src.elv.sh/pkg/mods/readlinebinding/readline-binding.elv)
+[source code](https://github.com/markusbkk/elvish/pkg/mods/readlinebinding/readline-binding.elv)
 for details.

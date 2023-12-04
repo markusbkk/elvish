@@ -4,11 +4,11 @@ import (
 	"os"
 	"testing"
 
-	"src.elv.sh/pkg/cli"
-	"src.elv.sh/pkg/edit"
-	"src.elv.sh/pkg/eval"
-	. "src.elv.sh/pkg/eval/evaltest"
-	"src.elv.sh/pkg/mods"
+	"github.com/markusbkk/elvish/pkg/cli"
+	"github.com/markusbkk/elvish/pkg/edit"
+	"github.com/markusbkk/elvish/pkg/eval"
+	. "github.com/markusbkk/elvish/pkg/eval/evaltest"
+	"github.com/markusbkk/elvish/pkg/mods"
 )
 
 func TestReadlineBinding(t *testing.T) {

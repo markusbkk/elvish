@@ -6,8 +6,8 @@ import (
 	"time"
 
 	bolt "go.etcd.io/bbolt"
-	"src.elv.sh/pkg/logutil"
-	. "src.elv.sh/pkg/store/storedefs"
+	"github.com/markusbkk/elvish/pkg/logutil"
+	. "github.com/markusbkk/elvish/pkg/store/storedefs"
 )
 
 var logger = logutil.GetLogger("[store] ")

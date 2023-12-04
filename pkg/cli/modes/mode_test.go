@@ -4,11 +4,11 @@ import (
 	"errors"
 	"testing"
 
-	"src.elv.sh/pkg/cli"
-	"src.elv.sh/pkg/cli/clitest"
-	"src.elv.sh/pkg/cli/tk"
-	"src.elv.sh/pkg/tt"
-	"src.elv.sh/pkg/ui"
+	"github.com/markusbkk/elvish/pkg/cli"
+	"github.com/markusbkk/elvish/pkg/cli/clitest"
+	"github.com/markusbkk/elvish/pkg/cli/tk"
+	"github.com/markusbkk/elvish/pkg/tt"
+	"github.com/markusbkk/elvish/pkg/ui"
 )
 
 func TestModeLine(t *testing.T) {

@@ -11,8 +11,8 @@ import (
 	"strings"
 	"sync"
 
-	"src.elv.sh/pkg/env"
-	"src.elv.sh/pkg/testutil"
+	"github.com/markusbkk/elvish/pkg/env"
+	"github.com/markusbkk/elvish/pkg/testutil"
 )
 
 // Colorist styles filenames based on the features of the file.

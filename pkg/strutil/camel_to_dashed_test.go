@@ -3,7 +3,7 @@ package strutil
 import (
 	"testing"
 
-	. "src.elv.sh/pkg/tt"
+	. "github.com/markusbkk/elvish/pkg/tt"
 )
 
 func TestCamelToDashed(t *testing.T) {

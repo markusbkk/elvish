@@ -26,7 +26,7 @@ follows:
     `VersionSuffix` is set to `-dev.unknown`.
 
 The `VersionSuffix` variable can be overridden at build time, by passing
-`-ldflags "-X src.elv.sh/pkg/buildinfo.VersionSuffix=-foobar"` to `go build`,
+`-ldflags "-X github.com/markusbkk/elvish/pkg/buildinfo.VersionSuffix=-foobar"` to `go build`,
 `go install` or `go get`. This is necessary in several scenarios, which are
 documented below.
 
@@ -42,7 +42,7 @@ official Linux distribution builds, this should identify your distribution, plus
 the version of the patch. Example:
 
 ```sh
-go build -ldflags "-X src.elv.sh/pkg/buildinfo.VersionSuffix=+deb1" ./cmd/elvish
+go build -ldflags "-X github.com/markusbkk/elvish/pkg/buildinfo.VersionSuffix=+deb1" ./cmd/elvish
 ```
 
 ### Packaging development builds
@@ -57,7 +57,7 @@ You should override `VersionSuffix` with `-dev.$commit_hash`, where
 
 ```sh
 go build -ldflags \
-  "-X src.elv.sh/pkg/buildinfo.VersionSuffix=-dev.$(git rev-parse HEAD)" \
+  "-X github.com/markusbkk/elvish/pkg/buildinfo.VersionSuffix=-dev.$(git rev-parse HEAD)" \
   ./cmd/elvish
 ```
 
@@ -101,7 +101,7 @@ To make reproducible builds, you must do the following:
     accordingly.
 
 If you follow these requirements when building Elvish, you can mark the build as
-a reproducible one by overriding `src.elv.sh/pkg/buildinfo.Reproducible` to
+a reproducible one by overriding `github.com/markusbkk/elvish/pkg/buildinfo.Reproducible` to
 `"true"`.
 
 Example when building a release version without any patches, on a platform where
@@ -109,7 +109,7 @@ PIE is applicable:
 
 ```sh
 go build -buildmode=pie -trimpath \
-  -ldflags "-X src.elv.sh/pkg/buildinfo.Reproducible=true" \
+  -ldflags "-X github.com/markusbkk/elvish/pkg/buildinfo.Reproducible=true" \
   ./cmd/elvish
 ```
 
@@ -118,7 +118,7 @@ PIE is application:
 
 ```sh
 go build -buildmode=pie -trimpath \
-  -ldflags "-X src.elv.sh/pkg/buildinfo.VersionSuffix=-dev.$(git rev-parse HEAD)+deb0 \
-            -X src.elv.sh/pkg/buildinfo.Reproducible=true" \
+  -ldflags "-X github.com/markusbkk/elvish/pkg/buildinfo.VersionSuffix=-dev.$(git rev-parse HEAD)+deb0 \
+            -X github.com/markusbkk/elvish/pkg/buildinfo.Reproducible=true" \
   ./cmd/elvish
 ```

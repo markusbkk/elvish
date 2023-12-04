@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"strings"
 
-	"src.elv.sh/pkg/eval/vals"
+	"github.com/markusbkk/elvish/pkg/eval/vals"
 )
 
 // Segment is a string that has some style applied to it.

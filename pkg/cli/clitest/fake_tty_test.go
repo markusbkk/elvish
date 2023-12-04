@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"src.elv.sh/pkg/cli"
-	"src.elv.sh/pkg/cli/term"
+	"github.com/markusbkk/elvish/pkg/cli"
+	"github.com/markusbkk/elvish/pkg/cli/term"
 )
 
 func TestFakeTTY_Setup(t *testing.T) {

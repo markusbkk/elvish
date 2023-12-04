@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"syscall"
 
-	"src.elv.sh/pkg/buildinfo"
-	"src.elv.sh/pkg/eval/vars"
+	"github.com/markusbkk/elvish/pkg/buildinfo"
+	"github.com/markusbkk/elvish/pkg/eval/vars"
 )
 
 //elvdoc:var _

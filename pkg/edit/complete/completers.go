@@ -3,9 +3,9 @@ package complete
 import (
 	"strings"
 
-	"src.elv.sh/pkg/diag"
-	"src.elv.sh/pkg/eval"
-	"src.elv.sh/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/diag"
+	"github.com/markusbkk/elvish/pkg/eval"
+	"github.com/markusbkk/elvish/pkg/parse"
 )
 
 var completers = []func(nodePath, Config) (*context, []RawItem, error){

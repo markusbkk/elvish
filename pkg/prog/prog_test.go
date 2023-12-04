@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	. "src.elv.sh/pkg/prog"
-	"src.elv.sh/pkg/prog/progtest"
-	"src.elv.sh/pkg/testutil"
+	. "github.com/markusbkk/elvish/pkg/prog"
+	"github.com/markusbkk/elvish/pkg/prog/progtest"
+	"github.com/markusbkk/elvish/pkg/testutil"
 )
 
 var (

@@ -5,9 +5,9 @@ package modes
 import (
 	"errors"
 
-	"src.elv.sh/pkg/cli"
-	"src.elv.sh/pkg/cli/tk"
-	"src.elv.sh/pkg/ui"
+	"github.com/markusbkk/elvish/pkg/cli"
+	"github.com/markusbkk/elvish/pkg/cli/tk"
+	"github.com/markusbkk/elvish/pkg/ui"
 )
 
 // ErrFocusedWidgetNotCodeArea is returned when an operation requires the

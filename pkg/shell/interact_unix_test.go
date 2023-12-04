@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"src.elv.sh/pkg/daemon"
-	"src.elv.sh/pkg/env"
+	"github.com/markusbkk/elvish/pkg/daemon"
+	"github.com/markusbkk/elvish/pkg/env"
 
-	. "src.elv.sh/pkg/prog/progtest"
-	. "src.elv.sh/pkg/testutil"
+	. "github.com/markusbkk/elvish/pkg/prog/progtest"
+	. "github.com/markusbkk/elvish/pkg/testutil"
 )
 
 func TestInteract_NewRcFile_Default(t *testing.T) {

@@ -9,9 +9,9 @@ import (
 	"syscall"
 	"testing"
 
-	"src.elv.sh/pkg/env"
-	"src.elv.sh/pkg/parse"
-	. "src.elv.sh/pkg/testutil"
+	"github.com/markusbkk/elvish/pkg/env"
+	"github.com/markusbkk/elvish/pkg/parse"
+	. "github.com/markusbkk/elvish/pkg/testutil"
 )
 
 func TestExec_Argv0Argv(t *testing.T) {

@@ -1,7 +1,7 @@
 // Package buildinfo contains build information.
 //
 // Build information should be set during compilation by passing
-// -ldflags "-X src.elv.sh/pkg/buildinfo.Var=value" to "go build" or
+// -ldflags "-X github.com/markusbkk/elvish/pkg/buildinfo.Var=value" to "go build" or
 // "go get".
 package buildinfo
 
@@ -11,7 +11,7 @@ import (
 	"os"
 	"runtime"
 
-	"src.elv.sh/pkg/prog"
+	"github.com/markusbkk/elvish/pkg/prog"
 )
 
 // Version identifies the version of Elvish. On development commits, it

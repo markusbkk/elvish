@@ -3,13 +3,13 @@ package edit
 import (
 	"errors"
 
-	"src.elv.sh/pkg/cli"
-	"src.elv.sh/pkg/cli/histutil"
-	"src.elv.sh/pkg/cli/tk"
-	"src.elv.sh/pkg/eval"
-	"src.elv.sh/pkg/eval/vals"
-	"src.elv.sh/pkg/parse/parseutil"
-	"src.elv.sh/pkg/store/storedefs"
+	"github.com/markusbkk/elvish/pkg/cli"
+	"github.com/markusbkk/elvish/pkg/cli/histutil"
+	"github.com/markusbkk/elvish/pkg/cli/tk"
+	"github.com/markusbkk/elvish/pkg/eval"
+	"github.com/markusbkk/elvish/pkg/eval/vals"
+	"github.com/markusbkk/elvish/pkg/parse/parseutil"
+	"github.com/markusbkk/elvish/pkg/store/storedefs"
 )
 
 var errStoreOffline = errors.New("store offline")

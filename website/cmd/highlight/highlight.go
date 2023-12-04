@@ -10,7 +10,7 @@ import (
 	"os"
 	"strings"
 
-	"src.elv.sh/pkg/edit/highlight"
+	"github.com/markusbkk/elvish/pkg/edit/highlight"
 )
 
 var (

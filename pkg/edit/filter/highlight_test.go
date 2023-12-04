@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"src.elv.sh/pkg/edit/filter"
-	"src.elv.sh/pkg/ui"
+	"github.com/markusbkk/elvish/pkg/edit/filter"
+	"github.com/markusbkk/elvish/pkg/ui"
 )
 
 var highlightTests = []struct {

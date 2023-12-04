@@ -3,8 +3,8 @@ package daemon
 import (
 	"syscall"
 
-	"src.elv.sh/pkg/daemon/internal/api"
-	"src.elv.sh/pkg/store/storedefs"
+	"github.com/markusbkk/elvish/pkg/daemon/internal/api"
+	"github.com/markusbkk/elvish/pkg/store/storedefs"
 )
 
 // A net/rpc service for the daemon.

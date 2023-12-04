@@ -9,7 +9,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"src.elv.sh/pkg/diag"
+	"github.com/markusbkk/elvish/pkg/diag"
 )
 
 // parser maintains some mutable states of parsing.

@@ -22,10 +22,10 @@ import (
 	"strings"
 	"testing"
 
-	"src.elv.sh/pkg/eval"
-	"src.elv.sh/pkg/eval/vals"
-	"src.elv.sh/pkg/parse"
-	"src.elv.sh/pkg/testutil"
+	"github.com/markusbkk/elvish/pkg/eval"
+	"github.com/markusbkk/elvish/pkg/eval/vals"
+	"github.com/markusbkk/elvish/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/testutil"
 )
 
 // Case is a test case that can be used in Test.

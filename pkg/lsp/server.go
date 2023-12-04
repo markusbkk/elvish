@@ -6,8 +6,8 @@ import (
 
 	lsp "github.com/sourcegraph/go-lsp"
 	"github.com/sourcegraph/jsonrpc2"
-	"src.elv.sh/pkg/diag"
-	"src.elv.sh/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/diag"
+	"github.com/markusbkk/elvish/pkg/parse"
 )
 
 var (

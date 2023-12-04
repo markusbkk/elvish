@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	. "src.elv.sh/pkg/prog/progtest"
+	. "github.com/markusbkk/elvish/pkg/prog/progtest"
 )
 
 func TestProgram(t *testing.T) {

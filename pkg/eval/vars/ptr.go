@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"sync"
 
-	"src.elv.sh/pkg/eval/vals"
+	"github.com/markusbkk/elvish/pkg/eval/vals"
 )
 
 type PtrVar struct {

@@ -6,11 +6,11 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"src.elv.sh/pkg/eval"
-	"src.elv.sh/pkg/eval/vals"
-	"src.elv.sh/pkg/getopt"
-	"src.elv.sh/pkg/parse"
-	"src.elv.sh/pkg/ui"
+	"github.com/markusbkk/elvish/pkg/eval"
+	"github.com/markusbkk/elvish/pkg/eval/vals"
+	"github.com/markusbkk/elvish/pkg/getopt"
+	"github.com/markusbkk/elvish/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/ui"
 )
 
 //elvdoc:fn complete-getopt

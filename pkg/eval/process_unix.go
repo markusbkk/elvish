@@ -8,8 +8,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"src.elv.sh/pkg/sys"
-	"src.elv.sh/pkg/sys/eunix"
+	"github.com/markusbkk/elvish/pkg/sys"
+	"github.com/markusbkk/elvish/pkg/sys/eunix"
 )
 
 // Process control functions in Unix.

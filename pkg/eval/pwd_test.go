@@ -6,11 +6,11 @@ import (
 	"runtime"
 	"testing"
 
-	. "src.elv.sh/pkg/eval"
-	"src.elv.sh/pkg/testutil"
+	. "github.com/markusbkk/elvish/pkg/eval"
+	"github.com/markusbkk/elvish/pkg/testutil"
 
-	. "src.elv.sh/pkg/eval/evaltest"
-	"src.elv.sh/pkg/eval/vars"
+	. "github.com/markusbkk/elvish/pkg/eval/evaltest"
+	"github.com/markusbkk/elvish/pkg/eval/vars"
 )
 
 func TestBuiltinPwd(t *testing.T) {

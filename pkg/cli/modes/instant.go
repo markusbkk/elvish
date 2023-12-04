@@ -3,10 +3,10 @@ package modes
 import (
 	"errors"
 
-	"src.elv.sh/pkg/cli"
-	"src.elv.sh/pkg/cli/term"
-	"src.elv.sh/pkg/cli/tk"
-	"src.elv.sh/pkg/ui"
+	"github.com/markusbkk/elvish/pkg/cli"
+	"github.com/markusbkk/elvish/pkg/cli/term"
+	"github.com/markusbkk/elvish/pkg/cli/tk"
+	"github.com/markusbkk/elvish/pkg/ui"
 )
 
 // Instant is a mode that executes code whenever it changes and shows the

@@ -5,13 +5,13 @@ import (
 	"strings"
 	"testing"
 
-	"src.elv.sh/pkg/cli/modes"
-	"src.elv.sh/pkg/cli/term"
-	"src.elv.sh/pkg/cli/tk"
-	"src.elv.sh/pkg/eval"
-	. "src.elv.sh/pkg/eval/evaltest"
-	"src.elv.sh/pkg/tt"
-	"src.elv.sh/pkg/ui"
+	"github.com/markusbkk/elvish/pkg/cli/modes"
+	"github.com/markusbkk/elvish/pkg/cli/term"
+	"github.com/markusbkk/elvish/pkg/cli/tk"
+	"github.com/markusbkk/elvish/pkg/eval"
+	. "github.com/markusbkk/elvish/pkg/eval/evaltest"
+	"github.com/markusbkk/elvish/pkg/tt"
+	"github.com/markusbkk/elvish/pkg/ui"
 )
 
 func TestBindingTable(t *testing.T) {

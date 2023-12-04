@@ -4,7 +4,7 @@ import (
 	"os"
 	"os/exec"
 
-	"src.elv.sh/pkg/eval/errs"
+	"github.com/markusbkk/elvish/pkg/eval/errs"
 )
 
 // Command and process control.

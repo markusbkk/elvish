@@ -4,7 +4,7 @@ import (
 	"os"
 
 	"golang.org/x/sys/windows"
-	"src.elv.sh/pkg/diag"
+	"github.com/markusbkk/elvish/pkg/diag"
 )
 
 const (

@@ -5,8 +5,8 @@ import (
 	"runtime"
 	"testing"
 
-	"src.elv.sh/pkg/eval"
-	. "src.elv.sh/pkg/eval/evaltest"
+	"github.com/markusbkk/elvish/pkg/eval"
+	. "github.com/markusbkk/elvish/pkg/eval/evaltest"
 )
 
 const (

@@ -6,13 +6,13 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"src.elv.sh/pkg/diag"
-	"src.elv.sh/pkg/eval/errs"
-	"src.elv.sh/pkg/eval/vals"
-	"src.elv.sh/pkg/eval/vars"
-	"src.elv.sh/pkg/fsutil"
-	"src.elv.sh/pkg/parse"
-	"src.elv.sh/pkg/parse/cmpd"
+	"github.com/markusbkk/elvish/pkg/diag"
+	"github.com/markusbkk/elvish/pkg/eval/errs"
+	"github.com/markusbkk/elvish/pkg/eval/vals"
+	"github.com/markusbkk/elvish/pkg/eval/vars"
+	"github.com/markusbkk/elvish/pkg/fsutil"
+	"github.com/markusbkk/elvish/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/parse/cmpd"
 )
 
 // An operation with some side effects.

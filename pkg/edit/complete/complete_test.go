@@ -6,14 +6,14 @@ import (
 	"runtime"
 	"testing"
 
-	"src.elv.sh/pkg/cli/lscolors"
-	"src.elv.sh/pkg/cli/modes"
-	"src.elv.sh/pkg/diag"
-	"src.elv.sh/pkg/eval"
-	"src.elv.sh/pkg/parse"
-	"src.elv.sh/pkg/testutil"
-	"src.elv.sh/pkg/tt"
-	"src.elv.sh/pkg/ui"
+	"github.com/markusbkk/elvish/pkg/cli/lscolors"
+	"github.com/markusbkk/elvish/pkg/cli/modes"
+	"github.com/markusbkk/elvish/pkg/diag"
+	"github.com/markusbkk/elvish/pkg/eval"
+	"github.com/markusbkk/elvish/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/testutil"
+	"github.com/markusbkk/elvish/pkg/tt"
+	"github.com/markusbkk/elvish/pkg/ui"
 )
 
 var Args = tt.Args

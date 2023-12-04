@@ -3,7 +3,7 @@ package eval_test
 import (
 	"testing"
 
-	. "src.elv.sh/pkg/eval/evaltest"
+	. "github.com/markusbkk/elvish/pkg/eval/evaltest"
 )
 
 func TestBool(t *testing.T) {

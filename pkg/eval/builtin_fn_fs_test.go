@@ -7,11 +7,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"src.elv.sh/pkg/eval/errs"
-	. "src.elv.sh/pkg/eval/evaltest"
-	"src.elv.sh/pkg/fsutil"
-	"src.elv.sh/pkg/parse"
-	"src.elv.sh/pkg/testutil"
+	"github.com/markusbkk/elvish/pkg/eval/errs"
+	. "github.com/markusbkk/elvish/pkg/eval/evaltest"
+	"github.com/markusbkk/elvish/pkg/fsutil"
+	"github.com/markusbkk/elvish/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/testutil"
 )
 
 // For error injection into the fsutil.GetHome function.

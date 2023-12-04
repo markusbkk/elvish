@@ -7,9 +7,9 @@
 package unix
 
 import (
-	"src.elv.sh/pkg/eval"
-	"src.elv.sh/pkg/eval/vars"
-	"src.elv.sh/pkg/logutil"
+	"github.com/markusbkk/elvish/pkg/eval"
+	"github.com/markusbkk/elvish/pkg/eval/vars"
+	"github.com/markusbkk/elvish/pkg/logutil"
 )
 
 // ExposeUnixNs indicate whether this module should be exposed as a usable

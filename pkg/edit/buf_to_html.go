@@ -5,7 +5,7 @@ import (
 	"html"
 	"strings"
 
-	"src.elv.sh/pkg/cli/term"
+	"github.com/markusbkk/elvish/pkg/cli/term"
 )
 
 // TODO(xiaq): Move this into the ui package.

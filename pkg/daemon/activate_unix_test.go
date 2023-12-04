@@ -9,9 +9,9 @@ import (
 	"os/user"
 	"testing"
 
-	"src.elv.sh/pkg/daemon/daemondefs"
-	"src.elv.sh/pkg/daemon/internal/api"
-	"src.elv.sh/pkg/testutil"
+	"github.com/markusbkk/elvish/pkg/daemon/daemondefs"
+	"github.com/markusbkk/elvish/pkg/daemon/internal/api"
+	"github.com/markusbkk/elvish/pkg/testutil"
 )
 
 func TestActivate_InterruptsOutdatedServerAndSpawnsNewServer(t *testing.T) {

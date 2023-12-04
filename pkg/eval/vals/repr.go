@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"src.elv.sh/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/parse"
 )
 
 // Reprer wraps the Repr method.

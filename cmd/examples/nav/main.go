@@ -4,10 +4,10 @@ package main
 import (
 	"fmt"
 
-	"src.elv.sh/pkg/cli"
-	"src.elv.sh/pkg/cli/modes"
-	"src.elv.sh/pkg/cli/term"
-	"src.elv.sh/pkg/cli/tk"
+	"github.com/markusbkk/elvish/pkg/cli"
+	"github.com/markusbkk/elvish/pkg/cli/modes"
+	"github.com/markusbkk/elvish/pkg/cli/term"
+	"github.com/markusbkk/elvish/pkg/cli/tk"
 )
 
 func main() {

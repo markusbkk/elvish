@@ -7,13 +7,13 @@ import (
 	"testing"
 	"unsafe"
 
-	"src.elv.sh/pkg/diag"
-	. "src.elv.sh/pkg/eval"
+	"github.com/markusbkk/elvish/pkg/diag"
+	. "github.com/markusbkk/elvish/pkg/eval"
 
-	. "src.elv.sh/pkg/eval/evaltest"
-	"src.elv.sh/pkg/eval/vals"
-	"src.elv.sh/pkg/persistent/hash"
-	"src.elv.sh/pkg/tt"
+	. "github.com/markusbkk/elvish/pkg/eval/evaltest"
+	"github.com/markusbkk/elvish/pkg/eval/vals"
+	"github.com/markusbkk/elvish/pkg/persistent/hash"
+	"github.com/markusbkk/elvish/pkg/tt"
 )
 
 func TestReason(t *testing.T) {

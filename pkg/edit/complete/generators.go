@@ -6,12 +6,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"src.elv.sh/pkg/cli/lscolors"
-	"src.elv.sh/pkg/eval"
-	"src.elv.sh/pkg/eval/vals"
-	"src.elv.sh/pkg/fsutil"
-	"src.elv.sh/pkg/parse"
-	"src.elv.sh/pkg/ui"
+	"github.com/markusbkk/elvish/pkg/cli/lscolors"
+	"github.com/markusbkk/elvish/pkg/eval"
+	"github.com/markusbkk/elvish/pkg/eval/vals"
+	"github.com/markusbkk/elvish/pkg/fsutil"
+	"github.com/markusbkk/elvish/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/ui"
 )
 
 var pathSeparator = string(filepath.Separator)

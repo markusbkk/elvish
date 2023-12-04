@@ -3,8 +3,8 @@ package eval
 import (
 	"reflect"
 
-	"src.elv.sh/pkg/eval/vals"
-	"src.elv.sh/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/eval/vals"
+	"github.com/markusbkk/elvish/pkg/parse"
 )
 
 // UnknownOption is thrown by a native function when called with an unknown option.

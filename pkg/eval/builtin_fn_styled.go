@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	"src.elv.sh/pkg/eval/vals"
-	"src.elv.sh/pkg/parse"
-	"src.elv.sh/pkg/ui"
+	"github.com/markusbkk/elvish/pkg/eval/vals"
+	"github.com/markusbkk/elvish/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/ui"
 )
 
 var errStyledSegmentArgType = errors.New("argument to styled-segment must be a string or a styled segment")

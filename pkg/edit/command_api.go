@@ -3,8 +3,8 @@ package edit
 // Implementation of the editor "command" mode.
 
 import (
-	"src.elv.sh/pkg/cli/modes"
-	"src.elv.sh/pkg/eval"
+	"github.com/markusbkk/elvish/pkg/cli/modes"
+	"github.com/markusbkk/elvish/pkg/eval"
 )
 
 //elvdoc:var command:binding

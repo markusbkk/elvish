@@ -1,7 +1,7 @@
 package vars
 
 import (
-	"src.elv.sh/pkg/eval/errs"
+	"github.com/markusbkk/elvish/pkg/eval/errs"
 )
 
 type callback struct {

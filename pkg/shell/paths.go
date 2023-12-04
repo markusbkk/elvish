@@ -4,9 +4,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"src.elv.sh/pkg/daemon/daemondefs"
-	"src.elv.sh/pkg/fsutil"
-	"src.elv.sh/pkg/prog"
+	"github.com/markusbkk/elvish/pkg/daemon/daemondefs"
+	"github.com/markusbkk/elvish/pkg/fsutil"
+	"github.com/markusbkk/elvish/pkg/prog"
 )
 
 func rcPath() (string, error) {

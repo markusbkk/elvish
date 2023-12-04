@@ -7,8 +7,8 @@ import (
 	"testing"
 	"unsafe"
 
-	"src.elv.sh/pkg/persistent/hash"
-	. "src.elv.sh/pkg/tt"
+	"github.com/markusbkk/elvish/pkg/persistent/hash"
+	. "github.com/markusbkk/elvish/pkg/tt"
 )
 
 type hasher struct{}

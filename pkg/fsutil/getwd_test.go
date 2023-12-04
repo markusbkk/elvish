@@ -7,8 +7,8 @@ import (
 	"runtime"
 	"testing"
 
-	"src.elv.sh/pkg/env"
-	"src.elv.sh/pkg/testutil"
+	"github.com/markusbkk/elvish/pkg/env"
+	"github.com/markusbkk/elvish/pkg/testutil"
 )
 
 func TestGetwd(t *testing.T) {

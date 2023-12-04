@@ -3,11 +3,11 @@ package edit
 import (
 	"errors"
 
-	"src.elv.sh/pkg/cli"
-	"src.elv.sh/pkg/cli/histutil"
-	"src.elv.sh/pkg/cli/modes"
-	"src.elv.sh/pkg/cli/tk"
-	"src.elv.sh/pkg/eval"
+	"github.com/markusbkk/elvish/pkg/cli"
+	"github.com/markusbkk/elvish/pkg/cli/histutil"
+	"github.com/markusbkk/elvish/pkg/cli/modes"
+	"github.com/markusbkk/elvish/pkg/cli/tk"
+	"github.com/markusbkk/elvish/pkg/eval"
 )
 
 //elvdoc:var history:binding

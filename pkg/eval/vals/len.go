@@ -3,7 +3,7 @@ package vals
 import (
 	"reflect"
 
-	"src.elv.sh/pkg/persistent/vector"
+	"github.com/markusbkk/elvish/pkg/persistent/vector"
 )
 
 // Lener wraps the Len method.

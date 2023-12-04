@@ -1,8 +1,8 @@
 package tk
 
 import (
-	"src.elv.sh/pkg/cli/term"
-	"src.elv.sh/pkg/ui"
+	"github.com/markusbkk/elvish/pkg/cli/term"
+	"github.com/markusbkk/elvish/pkg/ui"
 )
 
 // Label is a Renderer that writes out a text.

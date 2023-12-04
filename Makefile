@@ -17,8 +17,8 @@ get:
 	fi; \
 	mkdir -p $(shell dirname $(ELVISH_MAKE_BIN))
 	go build -o $(ELVISH_MAKE_BIN) -trimpath -ldflags \
-		"-X src.elv.sh/pkg/buildinfo.VersionSuffix=-dev.$$(git rev-parse HEAD)$$(git diff HEAD --quiet || printf +%s `uname -n`) \
-		 -X src.elv.sh/pkg/buildinfo.Reproducible=$(REPRODUCIBLE)" ./cmd/elvish
+		"-X github.com/markusbkk/elvish/pkg/buildinfo.VersionSuffix=-dev.$$(git rev-parse HEAD)$$(git diff HEAD --quiet || printf +%s `uname -n`) \
+		 -X github.com/markusbkk/elvish/pkg/buildinfo.Reproducible=$(REPRODUCIBLE)" ./cmd/elvish
 
 generate:
 	go generate ./...

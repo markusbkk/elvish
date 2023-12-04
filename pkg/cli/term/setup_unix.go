@@ -8,8 +8,8 @@ import (
 	"os"
 
 	"golang.org/x/sys/unix"
-	"src.elv.sh/pkg/diag"
-	"src.elv.sh/pkg/sys/eunix"
+	"github.com/markusbkk/elvish/pkg/diag"
+	"github.com/markusbkk/elvish/pkg/sys/eunix"
 )
 
 func setup(in, out *os.File) (func() error, error) {

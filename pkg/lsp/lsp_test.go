@@ -11,9 +11,9 @@ import (
 
 	lsp "github.com/sourcegraph/go-lsp"
 	"github.com/sourcegraph/jsonrpc2"
-	"src.elv.sh/pkg/prog"
-	"src.elv.sh/pkg/prog/progtest"
-	"src.elv.sh/pkg/testutil"
+	"github.com/markusbkk/elvish/pkg/prog"
+	"github.com/markusbkk/elvish/pkg/prog/progtest"
+	"github.com/markusbkk/elvish/pkg/testutil"
 )
 
 var diagTests = []struct {

@@ -3,9 +3,9 @@ package edit
 import (
 	"testing"
 
-	"src.elv.sh/pkg/cli/term"
-	"src.elv.sh/pkg/store/storedefs"
-	"src.elv.sh/pkg/ui"
+	"github.com/markusbkk/elvish/pkg/cli/term"
+	"github.com/markusbkk/elvish/pkg/store/storedefs"
+	"github.com/markusbkk/elvish/pkg/ui"
 )
 
 func TestHistWalk_Up_EndOfHistory(t *testing.T) {

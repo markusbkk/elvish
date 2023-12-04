@@ -3,8 +3,8 @@ package storetest
 import (
 	"testing"
 
-	"src.elv.sh/pkg/store"
-	"src.elv.sh/pkg/store/storedefs"
+	"github.com/markusbkk/elvish/pkg/store"
+	"github.com/markusbkk/elvish/pkg/store/storedefs"
 )
 
 // TestSharedVar tests the shared variable functionality of a Store.

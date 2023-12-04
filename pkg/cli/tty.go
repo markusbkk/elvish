@@ -6,8 +6,8 @@ import (
 	"os/signal"
 	"sync"
 
-	"src.elv.sh/pkg/cli/term"
-	"src.elv.sh/pkg/sys"
+	"github.com/markusbkk/elvish/pkg/cli/term"
+	"github.com/markusbkk/elvish/pkg/sys"
 )
 
 // TTY is the type the terminal dependency of the editor needs to satisfy.

@@ -14,7 +14,7 @@ import (
 	"fmt"
 	"strings"
 
-	"src.elv.sh/pkg/diag"
+	"github.com/markusbkk/elvish/pkg/diag"
 )
 
 // Config configurates the parsing behavior.

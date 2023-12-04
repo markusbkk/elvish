@@ -1,8 +1,8 @@
 package modes
 
 import (
-	"src.elv.sh/pkg/cli/term"
-	"src.elv.sh/pkg/cli/tk"
+	"github.com/markusbkk/elvish/pkg/cli/term"
+	"github.com/markusbkk/elvish/pkg/cli/tk"
 )
 
 // Stub is a mode that just shows a modeline and keeps the focus on the code

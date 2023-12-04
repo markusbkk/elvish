@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"src.elv.sh/pkg/diag"
+	"github.com/markusbkk/elvish/pkg/diag"
 )
 
 const parseErrorType = "parse error"

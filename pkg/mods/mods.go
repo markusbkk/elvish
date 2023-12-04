@@ -2,17 +2,17 @@
 package mods
 
 import (
-	"src.elv.sh/pkg/eval"
-	"src.elv.sh/pkg/mods/epm"
-	"src.elv.sh/pkg/mods/file"
-	"src.elv.sh/pkg/mods/flag"
-	"src.elv.sh/pkg/mods/math"
-	"src.elv.sh/pkg/mods/path"
-	"src.elv.sh/pkg/mods/platform"
-	"src.elv.sh/pkg/mods/re"
-	"src.elv.sh/pkg/mods/readlinebinding"
-	"src.elv.sh/pkg/mods/str"
-	"src.elv.sh/pkg/mods/unix"
+	"github.com/markusbkk/elvish/pkg/eval"
+	"github.com/markusbkk/elvish/pkg/mods/epm"
+	"github.com/markusbkk/elvish/pkg/mods/file"
+	"github.com/markusbkk/elvish/pkg/mods/flag"
+	"github.com/markusbkk/elvish/pkg/mods/math"
+	"github.com/markusbkk/elvish/pkg/mods/path"
+	"github.com/markusbkk/elvish/pkg/mods/platform"
+	"github.com/markusbkk/elvish/pkg/mods/re"
+	"github.com/markusbkk/elvish/pkg/mods/readlinebinding"
+	"github.com/markusbkk/elvish/pkg/mods/str"
+	"github.com/markusbkk/elvish/pkg/mods/unix"
 )
 
 // AddTo adds all standard library modules to the Evaler.

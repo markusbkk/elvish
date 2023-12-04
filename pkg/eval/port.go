@@ -8,9 +8,9 @@ import (
 	"os"
 	"sync"
 
-	"src.elv.sh/pkg/eval/errs"
-	"src.elv.sh/pkg/eval/vals"
-	"src.elv.sh/pkg/strutil"
+	"github.com/markusbkk/elvish/pkg/eval/errs"
+	"github.com/markusbkk/elvish/pkg/eval/vals"
+	"github.com/markusbkk/elvish/pkg/strutil"
 )
 
 // Port conveys data stream. It always consists of a byte band and a channel band.

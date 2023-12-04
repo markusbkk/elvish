@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"src.elv.sh/pkg/prog"
+	"github.com/markusbkk/elvish/pkg/prog"
 )
 
 // Verify we don't deadlock if more output is written to stdout than can be

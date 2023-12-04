@@ -1,8 +1,8 @@
 package store
 
 import (
-	"src.elv.sh/pkg/eval"
-	"src.elv.sh/pkg/store/storedefs"
+	"github.com/markusbkk/elvish/pkg/eval"
+	"github.com/markusbkk/elvish/pkg/store/storedefs"
 )
 
 //elvdoc:fn next-cmd-seq

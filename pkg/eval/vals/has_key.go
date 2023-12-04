@@ -3,7 +3,7 @@ package vals
 import (
 	"reflect"
 
-	"src.elv.sh/pkg/persistent/hashmap"
+	"github.com/markusbkk/elvish/pkg/persistent/hashmap"
 )
 
 // HasKeyer wraps the HasKey method.

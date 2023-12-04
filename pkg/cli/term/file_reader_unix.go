@@ -10,7 +10,7 @@ import (
 	"syscall"
 	"time"
 
-	"src.elv.sh/pkg/sys/eunix"
+	"github.com/markusbkk/elvish/pkg/sys/eunix"
 )
 
 // A helper for reading from a file.

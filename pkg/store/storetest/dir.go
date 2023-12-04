@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"src.elv.sh/pkg/store"
-	"src.elv.sh/pkg/store/storedefs"
+	"github.com/markusbkk/elvish/pkg/store"
+	"github.com/markusbkk/elvish/pkg/store/storedefs"
 )
 
 var (

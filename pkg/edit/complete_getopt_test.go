@@ -3,10 +3,10 @@ package edit
 import (
 	"testing"
 
-	"src.elv.sh/pkg/eval"
-	. "src.elv.sh/pkg/eval/evaltest"
-	"src.elv.sh/pkg/parse"
-	"src.elv.sh/pkg/ui"
+	"github.com/markusbkk/elvish/pkg/eval"
+	. "github.com/markusbkk/elvish/pkg/eval/evaltest"
+	"github.com/markusbkk/elvish/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/ui"
 )
 
 func setupCompleteGetopt(ev *eval.Evaler) {

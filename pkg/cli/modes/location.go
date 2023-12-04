@@ -8,11 +8,11 @@ import (
 	"regexp"
 	"strings"
 
-	"src.elv.sh/pkg/cli"
-	"src.elv.sh/pkg/cli/tk"
-	"src.elv.sh/pkg/fsutil"
-	"src.elv.sh/pkg/store/storedefs"
-	"src.elv.sh/pkg/ui"
+	"github.com/markusbkk/elvish/pkg/cli"
+	"github.com/markusbkk/elvish/pkg/cli/tk"
+	"github.com/markusbkk/elvish/pkg/fsutil"
+	"github.com/markusbkk/elvish/pkg/store/storedefs"
+	"github.com/markusbkk/elvish/pkg/ui"
 )
 
 // Location is a mode for viewing location history and changing to a selected

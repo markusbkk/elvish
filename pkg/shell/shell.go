@@ -9,15 +9,15 @@ import (
 	"strconv"
 	"time"
 
-	"src.elv.sh/pkg/cli/term"
-	"src.elv.sh/pkg/daemon/daemondefs"
-	"src.elv.sh/pkg/env"
-	"src.elv.sh/pkg/eval"
-	"src.elv.sh/pkg/logutil"
-	"src.elv.sh/pkg/mods"
-	"src.elv.sh/pkg/parse"
-	"src.elv.sh/pkg/prog"
-	"src.elv.sh/pkg/sys"
+	"github.com/markusbkk/elvish/pkg/cli/term"
+	"github.com/markusbkk/elvish/pkg/daemon/daemondefs"
+	"github.com/markusbkk/elvish/pkg/env"
+	"github.com/markusbkk/elvish/pkg/eval"
+	"github.com/markusbkk/elvish/pkg/logutil"
+	"github.com/markusbkk/elvish/pkg/mods"
+	"github.com/markusbkk/elvish/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/prog"
+	"github.com/markusbkk/elvish/pkg/sys"
 )
 
 var logger = logutil.GetLogger("[shell] ")

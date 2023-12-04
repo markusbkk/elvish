@@ -3,8 +3,8 @@ package epm_test
 import (
 	"testing"
 
-	. "src.elv.sh/pkg/eval/evaltest"
-	"src.elv.sh/pkg/mods"
+	. "github.com/markusbkk/elvish/pkg/eval/evaltest"
+	"github.com/markusbkk/elvish/pkg/mods"
 )
 
 func TestEPM(t *testing.T) {

@@ -10,13 +10,13 @@ import (
 	"fmt"
 	"sync"
 
-	"src.elv.sh/pkg/cli"
-	"src.elv.sh/pkg/eval"
-	"src.elv.sh/pkg/eval/vals"
-	"src.elv.sh/pkg/eval/vars"
-	"src.elv.sh/pkg/parse"
-	"src.elv.sh/pkg/store/storedefs"
-	"src.elv.sh/pkg/ui"
+	"github.com/markusbkk/elvish/pkg/cli"
+	"github.com/markusbkk/elvish/pkg/eval"
+	"github.com/markusbkk/elvish/pkg/eval/vals"
+	"github.com/markusbkk/elvish/pkg/eval/vars"
+	"github.com/markusbkk/elvish/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/store/storedefs"
+	"github.com/markusbkk/elvish/pkg/ui"
 )
 
 // Editor is the interactive line editor for Elvish.

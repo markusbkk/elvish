@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"regexp"
 
-	"src.elv.sh/pkg/eval"
+	"github.com/markusbkk/elvish/pkg/eval"
 )
 
 // ApproximatelyThreshold defines the threshold for matching float64 values when

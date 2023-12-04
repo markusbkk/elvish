@@ -3,8 +3,8 @@ package highlight
 import (
 	"testing"
 
-	"src.elv.sh/pkg/parse"
-	"src.elv.sh/pkg/tt"
+	"github.com/markusbkk/elvish/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/tt"
 )
 
 var Args = tt.Args

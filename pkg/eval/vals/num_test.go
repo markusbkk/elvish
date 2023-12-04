@@ -5,8 +5,8 @@ import (
 	"math/big"
 	"testing"
 
-	"src.elv.sh/pkg/testutil"
-	. "src.elv.sh/pkg/tt"
+	"github.com/markusbkk/elvish/pkg/testutil"
+	. "github.com/markusbkk/elvish/pkg/tt"
 )
 
 // Test utilities.

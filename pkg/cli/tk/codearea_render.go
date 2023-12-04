@@ -1,9 +1,9 @@
 package tk
 
 import (
-	"src.elv.sh/pkg/cli/term"
-	"src.elv.sh/pkg/ui"
-	"src.elv.sh/pkg/wcwidth"
+	"github.com/markusbkk/elvish/pkg/cli/term"
+	"github.com/markusbkk/elvish/pkg/ui"
+	"github.com/markusbkk/elvish/pkg/wcwidth"
 )
 
 // View model, calculated from State and used for rendering.

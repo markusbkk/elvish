@@ -9,8 +9,8 @@ import (
 	"sync"
 	"unicode/utf8"
 
-	"src.elv.sh/pkg/eval/errs"
-	"src.elv.sh/pkg/strutil"
+	"github.com/markusbkk/elvish/pkg/eval/errs"
+	"github.com/markusbkk/elvish/pkg/strutil"
 )
 
 // Conversion between "Go values" (those expected by native Go functions) and

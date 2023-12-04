@@ -12,10 +12,10 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"src.elv.sh/pkg/diag"
-	"src.elv.sh/pkg/eval/errs"
-	"src.elv.sh/pkg/eval/vals"
-	"src.elv.sh/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/diag"
+	"github.com/markusbkk/elvish/pkg/eval/errs"
+	"github.com/markusbkk/elvish/pkg/eval/vals"
+	"github.com/markusbkk/elvish/pkg/parse"
 )
 
 var (

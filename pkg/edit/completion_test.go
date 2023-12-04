@@ -3,13 +3,13 @@ package edit
 import (
 	"testing"
 
-	"src.elv.sh/pkg/cli/term"
-	"src.elv.sh/pkg/eval"
-	"src.elv.sh/pkg/eval/errs"
-	. "src.elv.sh/pkg/eval/evaltest"
-	"src.elv.sh/pkg/eval/vals"
-	"src.elv.sh/pkg/testutil"
-	"src.elv.sh/pkg/ui"
+	"github.com/markusbkk/elvish/pkg/cli/term"
+	"github.com/markusbkk/elvish/pkg/eval"
+	"github.com/markusbkk/elvish/pkg/eval/errs"
+	. "github.com/markusbkk/elvish/pkg/eval/evaltest"
+	"github.com/markusbkk/elvish/pkg/eval/vals"
+	"github.com/markusbkk/elvish/pkg/testutil"
+	"github.com/markusbkk/elvish/pkg/ui"
 )
 
 func TestCompletionAddon(t *testing.T) {

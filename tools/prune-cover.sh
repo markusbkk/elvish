@@ -11,7 +11,7 @@ fi
 yaml="$1"
 data="$2"
 
-sed -En '/^ignore:/,/^[^ ]/s/^  *- "(.*)"/src.elv.sh\/\1/p' $yaml > $yaml.ignore
+sed -En '/^ignore:/,/^[^ ]/s/^  *- "(.*)"/github.com/markusbkk/elvish\/\1/p' $yaml > $yaml.ignore
 grep -F -v -f $yaml.ignore $data > $data.pruned
 mv $data.pruned $data
 rm $yaml.ignore

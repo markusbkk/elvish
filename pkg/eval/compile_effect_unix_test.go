@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"src.elv.sh/pkg/eval/errs"
-	. "src.elv.sh/pkg/eval/evaltest"
-	"src.elv.sh/pkg/testutil"
+	"github.com/markusbkk/elvish/pkg/eval/errs"
+	. "github.com/markusbkk/elvish/pkg/eval/evaltest"
+	"github.com/markusbkk/elvish/pkg/testutil"
 )
 
 func TestPipeline_ReaderGone_Unix(t *testing.T) {

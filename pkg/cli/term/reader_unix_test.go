@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"src.elv.sh/pkg/testutil"
-	"src.elv.sh/pkg/ui"
+	"github.com/markusbkk/elvish/pkg/testutil"
+	"github.com/markusbkk/elvish/pkg/ui"
 )
 
 var readEventTests = []struct {

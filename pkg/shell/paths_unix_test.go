@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"src.elv.sh/pkg/env"
-	"src.elv.sh/pkg/testutil"
+	"github.com/markusbkk/elvish/pkg/env"
+	"github.com/markusbkk/elvish/pkg/testutil"
 )
 
 var elvishDashUID = fmt.Sprintf("elvish-%d", os.Getuid())

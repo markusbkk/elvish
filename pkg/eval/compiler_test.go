@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	. "src.elv.sh/pkg/eval"
-	"src.elv.sh/pkg/parse"
-	"src.elv.sh/pkg/prog/progtest"
+	. "github.com/markusbkk/elvish/pkg/eval"
+	"github.com/markusbkk/elvish/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/prog/progtest"
 )
 
 func TestDeprecatedBuiltin(t *testing.T) {

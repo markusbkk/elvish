@@ -5,9 +5,9 @@ import (
 	"errors"
 	"sort"
 
-	"src.elv.sh/pkg/cli/modes"
-	"src.elv.sh/pkg/diag"
-	"src.elv.sh/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/cli/modes"
+	"github.com/markusbkk/elvish/pkg/diag"
+	"github.com/markusbkk/elvish/pkg/parse"
 )
 
 type item = modes.CompletionItem
@@ -64,7 +64,7 @@ type PureEvaler interface {
 	PurelyEvalPartialCompound(*parse.Compound, int) (string, bool)
 }
 
-// CodeBuffer is the same the type in src.elv.sh/pkg/el/codearea,
+// CodeBuffer is the same the type in github.com/markusbkk/elvish/pkg/el/codearea,
 // replicated here to avoid an unnecessary dependency.
 type CodeBuffer struct {
 	Content string

@@ -3,7 +3,7 @@ package histutil
 import (
 	"testing"
 
-	"src.elv.sh/pkg/store/storedefs"
+	"github.com/markusbkk/elvish/pkg/store/storedefs"
 )
 
 func TestDBStore_Cursor(t *testing.T) {

@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"src.elv.sh/pkg/eval/vals"
-	"src.elv.sh/pkg/glob"
+	"github.com/markusbkk/elvish/pkg/eval/vals"
+	"github.com/markusbkk/elvish/pkg/glob"
 )
 
 var reprTests = []struct {

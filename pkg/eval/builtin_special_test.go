@@ -4,16 +4,16 @@ import (
 	"errors"
 	"testing"
 
-	"src.elv.sh/pkg/diag"
-	. "src.elv.sh/pkg/eval"
-	"src.elv.sh/pkg/eval/errs"
-	"src.elv.sh/pkg/eval/vals"
-	"src.elv.sh/pkg/eval/vars"
-	"src.elv.sh/pkg/parse"
-	"src.elv.sh/pkg/prog/progtest"
+	"github.com/markusbkk/elvish/pkg/diag"
+	. "github.com/markusbkk/elvish/pkg/eval"
+	"github.com/markusbkk/elvish/pkg/eval/errs"
+	"github.com/markusbkk/elvish/pkg/eval/vals"
+	"github.com/markusbkk/elvish/pkg/eval/vars"
+	"github.com/markusbkk/elvish/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/prog/progtest"
 
-	. "src.elv.sh/pkg/eval/evaltest"
-	. "src.elv.sh/pkg/testutil"
+	. "github.com/markusbkk/elvish/pkg/eval/evaltest"
+	. "github.com/markusbkk/elvish/pkg/testutil"
 )
 
 func TestPragma(t *testing.T) {

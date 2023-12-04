@@ -20,8 +20,8 @@ import (
 	"strings"
 	"testing"
 
-	"src.elv.sh/pkg/prog"
-	"src.elv.sh/pkg/testutil"
+	"github.com/markusbkk/elvish/pkg/prog"
+	"github.com/markusbkk/elvish/pkg/testutil"
 )
 
 // Case is a test case that can be used in Test.

@@ -21,11 +21,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"src.elv.sh/pkg/diag"
-	"src.elv.sh/pkg/eval/vals"
-	"src.elv.sh/pkg/eval/vars"
-	"src.elv.sh/pkg/parse"
-	"src.elv.sh/pkg/parse/cmpd"
+	"github.com/markusbkk/elvish/pkg/diag"
+	"github.com/markusbkk/elvish/pkg/eval/vals"
+	"github.com/markusbkk/elvish/pkg/eval/vars"
+	"github.com/markusbkk/elvish/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/parse/cmpd"
 )
 
 type compileBuiltin func(*compiler, *parse.Form) effectOp

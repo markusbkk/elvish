@@ -1,6 +1,6 @@
 package highlight
 
-import "src.elv.sh/pkg/ui"
+import "github.com/markusbkk/elvish/pkg/ui"
 
 var stylingFor = map[string]ui.Styling{
 	barewordRegion:     nil,

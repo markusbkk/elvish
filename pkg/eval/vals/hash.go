@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"src.elv.sh/pkg/persistent/hash"
+	"github.com/markusbkk/elvish/pkg/persistent/hash"
 )
 
 // Hasher wraps the Hash method.

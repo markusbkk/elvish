@@ -3,11 +3,11 @@ package store
 import (
 	"testing"
 
-	"src.elv.sh/pkg/eval"
-	. "src.elv.sh/pkg/eval/evaltest"
-	"src.elv.sh/pkg/store"
-	"src.elv.sh/pkg/store/storedefs"
-	"src.elv.sh/pkg/testutil"
+	"github.com/markusbkk/elvish/pkg/eval"
+	. "github.com/markusbkk/elvish/pkg/eval/evaltest"
+	"github.com/markusbkk/elvish/pkg/store"
+	"github.com/markusbkk/elvish/pkg/store/storedefs"
+	"github.com/markusbkk/elvish/pkg/testutil"
 )
 
 func TestStore(t *testing.T) {

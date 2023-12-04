@@ -6,11 +6,11 @@ import (
 	"strings"
 	"testing"
 
-	. "src.elv.sh/pkg/eval"
-	"src.elv.sh/pkg/eval/errs"
-	"src.elv.sh/pkg/eval/vals"
+	. "github.com/markusbkk/elvish/pkg/eval"
+	"github.com/markusbkk/elvish/pkg/eval/errs"
+	"github.com/markusbkk/elvish/pkg/eval/vals"
 
-	. "src.elv.sh/pkg/eval/evaltest"
+	. "github.com/markusbkk/elvish/pkg/eval/evaltest"
 )
 
 const (

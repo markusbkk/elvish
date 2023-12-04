@@ -3,9 +3,9 @@ package tk
 import (
 	"testing"
 
-	"src.elv.sh/pkg/cli/term"
-	"src.elv.sh/pkg/tt"
-	"src.elv.sh/pkg/ui"
+	"github.com/markusbkk/elvish/pkg/cli/term"
+	"github.com/markusbkk/elvish/pkg/tt"
+	"github.com/markusbkk/elvish/pkg/ui"
 )
 
 var colViewRenderTests = []renderTest{

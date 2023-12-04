@@ -8,7 +8,7 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"src.elv.sh/pkg/sys/ewindows"
+	"github.com/markusbkk/elvish/pkg/sys/ewindows"
 )
 
 func main() {

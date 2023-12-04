@@ -5,10 +5,10 @@ package main
 import (
 	"os"
 
-	"src.elv.sh/pkg/buildinfo"
-	"src.elv.sh/pkg/lsp"
-	"src.elv.sh/pkg/prog"
-	"src.elv.sh/pkg/shell"
+	"github.com/markusbkk/elvish/pkg/buildinfo"
+	"github.com/markusbkk/elvish/pkg/lsp"
+	"github.com/markusbkk/elvish/pkg/prog"
+	"github.com/markusbkk/elvish/pkg/shell"
 )
 
 func main() {

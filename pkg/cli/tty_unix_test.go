@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"golang.org/x/sys/unix"
-	. "src.elv.sh/pkg/cli"
+	. "github.com/markusbkk/elvish/pkg/cli"
 )
 
 func TestTTYSignal(t *testing.T) {

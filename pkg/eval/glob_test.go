@@ -3,10 +3,10 @@ package eval_test
 import (
 	"testing"
 
-	. "src.elv.sh/pkg/eval"
+	. "github.com/markusbkk/elvish/pkg/eval"
 
-	. "src.elv.sh/pkg/eval/evaltest"
-	"src.elv.sh/pkg/testutil"
+	. "github.com/markusbkk/elvish/pkg/eval/evaltest"
+	"github.com/markusbkk/elvish/pkg/testutil"
 )
 
 func TestGlob_Simple(t *testing.T) {

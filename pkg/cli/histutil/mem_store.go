@@ -3,7 +3,7 @@ package histutil
 import (
 	"strings"
 
-	"src.elv.sh/pkg/store/storedefs"
+	"github.com/markusbkk/elvish/pkg/store/storedefs"
 )
 
 // NewMemStore returns a Store that stores command history in memory.

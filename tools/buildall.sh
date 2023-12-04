@@ -41,9 +41,9 @@ SUFFIX=$3
 
 LD_FLAGS=
 if test -n "$ELVISH_REPRODUCIBLE"; then
-    LD_FLAGS="-X src.elv.sh/pkg/buildinfo.Reproducible=true"
+    LD_FLAGS="-X github.com/markusbkk/elvish/pkg/buildinfo.Reproducible=true"
     if test "$ELVISH_REPRODUCIBLE" = dev; then
-        LD_FLAGS="$LD_FLAGS -X src.elv.sh/pkg/buildinfo.VersionSuffix=-dev.$(git -C $SRC_DIR rev-parse HEAD)"
+        LD_FLAGS="$LD_FLAGS -X github.com/markusbkk/elvish/pkg/buildinfo.VersionSuffix=-dev.$(git -C $SRC_DIR rev-parse HEAD)"
     elif test "$ELVISH_REPRODUCIBLE" = release; then
         : # nothing to do
     else

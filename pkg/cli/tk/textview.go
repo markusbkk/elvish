@@ -3,9 +3,9 @@ package tk
 import (
 	"sync"
 
-	"src.elv.sh/pkg/cli/term"
-	"src.elv.sh/pkg/ui"
-	"src.elv.sh/pkg/wcwidth"
+	"github.com/markusbkk/elvish/pkg/cli/term"
+	"github.com/markusbkk/elvish/pkg/ui"
+	"github.com/markusbkk/elvish/pkg/wcwidth"
 )
 
 // TextView is a Widget for displaying text, with support for vertical

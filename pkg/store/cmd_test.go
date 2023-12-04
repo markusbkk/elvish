@@ -3,8 +3,8 @@ package store_test
 import (
 	"testing"
 
-	"src.elv.sh/pkg/store"
-	"src.elv.sh/pkg/store/storetest"
+	"github.com/markusbkk/elvish/pkg/store"
+	"github.com/markusbkk/elvish/pkg/store/storetest"
 )
 
 func TestCmd(t *testing.T) {

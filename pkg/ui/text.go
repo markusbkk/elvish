@@ -6,8 +6,8 @@ import (
 	"math/big"
 	"strconv"
 
-	"src.elv.sh/pkg/eval/vals"
-	"src.elv.sh/pkg/wcwidth"
+	"github.com/markusbkk/elvish/pkg/eval/vals"
+	"github.com/markusbkk/elvish/pkg/wcwidth"
 )
 
 // Text contains of a list of styled Segments.

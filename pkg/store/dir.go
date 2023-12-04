@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	bolt "go.etcd.io/bbolt"
-	. "src.elv.sh/pkg/store/storedefs"
+	. "github.com/markusbkk/elvish/pkg/store/storedefs"
 )
 
 // Parameters for directory history scores.

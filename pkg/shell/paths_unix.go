@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"src.elv.sh/pkg/diag"
-	"src.elv.sh/pkg/env"
-	"src.elv.sh/pkg/fsutil"
+	"github.com/markusbkk/elvish/pkg/diag"
+	"github.com/markusbkk/elvish/pkg/env"
+	"github.com/markusbkk/elvish/pkg/fsutil"
 )
 
 func newRCPath() (string, error) {

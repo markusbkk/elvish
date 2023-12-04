@@ -4,10 +4,10 @@ package edit
 // information about the most recently executed interactive command.
 
 import (
-	"src.elv.sh/pkg/eval"
-	"src.elv.sh/pkg/eval/vals"
-	"src.elv.sh/pkg/eval/vars"
-	"src.elv.sh/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/eval"
+	"github.com/markusbkk/elvish/pkg/eval/vals"
+	"github.com/markusbkk/elvish/pkg/eval/vars"
+	"github.com/markusbkk/elvish/pkg/parse"
 )
 
 //elvdoc:var after-command

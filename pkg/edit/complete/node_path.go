@@ -3,7 +3,7 @@ package complete
 import (
 	"reflect"
 
-	"src.elv.sh/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/parse"
 )
 
 type nodePath []parse.Node

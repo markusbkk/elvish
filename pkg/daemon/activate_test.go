@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"src.elv.sh/pkg/daemon/daemondefs"
-	"src.elv.sh/pkg/testutil"
+	"github.com/markusbkk/elvish/pkg/daemon/daemondefs"
+	"github.com/markusbkk/elvish/pkg/testutil"
 )
 
 func TestActivate_ConnectsToExistingServer(t *testing.T) {

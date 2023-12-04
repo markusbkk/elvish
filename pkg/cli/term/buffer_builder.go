@@ -3,8 +3,8 @@ package term
 import (
 	"strings"
 
-	"src.elv.sh/pkg/ui"
-	"src.elv.sh/pkg/wcwidth"
+	"github.com/markusbkk/elvish/pkg/ui"
+	"github.com/markusbkk/elvish/pkg/wcwidth"
 )
 
 // BufferBuilder supports building of Buffer.

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"src.elv.sh/pkg/persistent/hash"
+	"github.com/markusbkk/elvish/pkg/persistent/hash"
 )
 
 // Pipe wraps a pair of pointers to os.File that are the two ends of the same

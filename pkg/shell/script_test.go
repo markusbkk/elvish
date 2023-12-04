@@ -3,8 +3,8 @@ package shell
 import (
 	"testing"
 
-	. "src.elv.sh/pkg/prog/progtest"
-	"src.elv.sh/pkg/testutil"
+	. "github.com/markusbkk/elvish/pkg/prog/progtest"
+	"github.com/markusbkk/elvish/pkg/testutil"
 )
 
 func TestScript(t *testing.T) {

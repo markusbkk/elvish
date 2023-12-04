@@ -6,7 +6,7 @@ package eval
 import (
 	"testing"
 
-	"src.elv.sh/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/parse"
 )
 
 func FuzzCheck(f *testing.F) {

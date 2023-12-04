@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	. "src.elv.sh/pkg/eval"
-	"src.elv.sh/pkg/testutil"
+	. "github.com/markusbkk/elvish/pkg/eval"
+	"github.com/markusbkk/elvish/pkg/testutil"
 
-	. "src.elv.sh/pkg/eval/evaltest"
+	. "github.com/markusbkk/elvish/pkg/eval/evaltest"
 )
 
 func interruptedTimeAfterMock(fm *Frame, d time.Duration) <-chan time.Time {

@@ -9,7 +9,7 @@ import (
 	"os"
 	"syscall"
 
-	"src.elv.sh/pkg/sys"
+	"github.com/markusbkk/elvish/pkg/sys"
 )
 
 func handleSignal(sig os.Signal, stderr io.Writer) {

@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"io"
 
-	"src.elv.sh/pkg/diag"
-	"src.elv.sh/pkg/eval/vars"
-	"src.elv.sh/pkg/parse"
-	"src.elv.sh/pkg/prog"
+	"github.com/markusbkk/elvish/pkg/diag"
+	"github.com/markusbkk/elvish/pkg/eval/vars"
+	"github.com/markusbkk/elvish/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/prog"
 )
 
 // compiler maintains the set of states needed when compiling a single source

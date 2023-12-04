@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"src.elv.sh/pkg/eval/errs"
-	. "src.elv.sh/pkg/tt"
+	"github.com/markusbkk/elvish/pkg/eval/errs"
+	. "github.com/markusbkk/elvish/pkg/tt"
 )
 
 type customAssocer struct{}

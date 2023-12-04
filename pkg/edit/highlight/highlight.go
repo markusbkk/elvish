@@ -4,9 +4,9 @@ package highlight
 import (
 	"time"
 
-	"src.elv.sh/pkg/diag"
-	"src.elv.sh/pkg/parse"
-	"src.elv.sh/pkg/ui"
+	"github.com/markusbkk/elvish/pkg/diag"
+	"github.com/markusbkk/elvish/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/ui"
 )
 
 // Config keeps configuration for highlighting code.

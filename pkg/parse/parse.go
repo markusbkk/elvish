@@ -18,7 +18,7 @@ import (
 	"strings"
 	"unicode"
 
-	"src.elv.sh/pkg/diag"
+	"github.com/markusbkk/elvish/pkg/diag"
 )
 
 // Tree represents a parsed tree.

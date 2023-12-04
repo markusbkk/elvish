@@ -1,4 +1,4 @@
-module src.elv.sh
+module github.com/markusbkk/elvish
 
 require (
 	github.com/creack/pty v1.1.15

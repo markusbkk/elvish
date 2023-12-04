@@ -13,7 +13,7 @@ import (
 	"io"
 	"os"
 
-	"src.elv.sh/pkg/logutil"
+	"github.com/markusbkk/elvish/pkg/logutil"
 )
 
 // DeprecationLevel is a global flag that controls which deprecations to show.

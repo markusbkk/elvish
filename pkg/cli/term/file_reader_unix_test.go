@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"src.elv.sh/pkg/testutil"
+	"github.com/markusbkk/elvish/pkg/testutil"
 )
 
 func TestFileReader_ReadByteWithTimeout(t *testing.T) {

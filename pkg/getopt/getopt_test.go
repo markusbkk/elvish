@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"src.elv.sh/pkg/diag"
+	"github.com/markusbkk/elvish/pkg/diag"
 )
 
 var (

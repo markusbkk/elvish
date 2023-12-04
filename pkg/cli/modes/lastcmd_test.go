@@ -4,13 +4,13 @@ import (
 	"strings"
 	"testing"
 
-	"src.elv.sh/pkg/cli"
-	. "src.elv.sh/pkg/cli/clitest"
-	"src.elv.sh/pkg/cli/histutil"
-	"src.elv.sh/pkg/cli/term"
-	"src.elv.sh/pkg/cli/tk"
-	"src.elv.sh/pkg/store/storedefs"
-	"src.elv.sh/pkg/ui"
+	"github.com/markusbkk/elvish/pkg/cli"
+	. "github.com/markusbkk/elvish/pkg/cli/clitest"
+	"github.com/markusbkk/elvish/pkg/cli/histutil"
+	"github.com/markusbkk/elvish/pkg/cli/term"
+	"github.com/markusbkk/elvish/pkg/cli/tk"
+	"github.com/markusbkk/elvish/pkg/store/storedefs"
+	"github.com/markusbkk/elvish/pkg/ui"
 )
 
 func TestNewLastcmd_NoStore(t *testing.T) {

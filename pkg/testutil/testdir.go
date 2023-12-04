@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"src.elv.sh/pkg/env"
+	"github.com/markusbkk/elvish/pkg/env"
 )
 
 // TempDir creates a temporary directory for testing that will be removed

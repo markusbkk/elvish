@@ -4,10 +4,10 @@ import (
 	"os"
 	"testing"
 
-	"src.elv.sh/pkg/eval"
-	"src.elv.sh/pkg/eval/errs"
-	. "src.elv.sh/pkg/eval/evaltest"
-	"src.elv.sh/pkg/testutil"
+	"github.com/markusbkk/elvish/pkg/eval"
+	"github.com/markusbkk/elvish/pkg/eval/errs"
+	. "github.com/markusbkk/elvish/pkg/eval/evaltest"
+	"github.com/markusbkk/elvish/pkg/testutil"
 )
 
 // A number that exceeds the range of int64

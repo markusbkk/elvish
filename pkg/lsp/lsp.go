@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/sourcegraph/jsonrpc2"
-	"src.elv.sh/pkg/prog"
+	"github.com/markusbkk/elvish/pkg/prog"
 )
 
 // Program is the LSP subprogram.

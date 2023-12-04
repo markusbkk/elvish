@@ -3,9 +3,9 @@ package eval_test
 import (
 	"testing"
 
-	. "src.elv.sh/pkg/eval"
+	. "github.com/markusbkk/elvish/pkg/eval"
 
-	"src.elv.sh/pkg/tt"
+	"github.com/markusbkk/elvish/pkg/tt"
 )
 
 var Args = tt.Args

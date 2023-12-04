@@ -7,11 +7,11 @@ import (
 	"sync/atomic"
 	"syscall"
 
-	"src.elv.sh/pkg/eval/errs"
-	"src.elv.sh/pkg/eval/vals"
-	"src.elv.sh/pkg/fsutil"
-	"src.elv.sh/pkg/parse"
-	"src.elv.sh/pkg/persistent/hash"
+	"github.com/markusbkk/elvish/pkg/eval/errs"
+	"github.com/markusbkk/elvish/pkg/eval/vals"
+	"github.com/markusbkk/elvish/pkg/fsutil"
+	"github.com/markusbkk/elvish/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/persistent/hash"
 )
 
 var (

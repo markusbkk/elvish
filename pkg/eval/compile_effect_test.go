@@ -4,11 +4,11 @@ import (
 	"testing"
 	"time"
 
-	. "src.elv.sh/pkg/eval"
-	"src.elv.sh/pkg/eval/errs"
-	. "src.elv.sh/pkg/eval/evaltest"
-	"src.elv.sh/pkg/mods/file"
-	"src.elv.sh/pkg/testutil"
+	. "github.com/markusbkk/elvish/pkg/eval"
+	"github.com/markusbkk/elvish/pkg/eval/errs"
+	. "github.com/markusbkk/elvish/pkg/eval/evaltest"
+	"github.com/markusbkk/elvish/pkg/mods/file"
+	"github.com/markusbkk/elvish/pkg/testutil"
 )
 
 func TestChunk(t *testing.T) {
@@ -214,7 +214,7 @@ func TestCommand_Redir(t *testing.T) {
 
 		// We can't read values from a file and shouldn't hang when iterating
 		// over input from a file.
-		// Regression test for https://src.elv.sh/issues/1010
+		// Regression test for https://github.com/markusbkk/elvish/issues/1010
 		That("echo abc > bytes", "each $echo~ < bytes").Prints("abc\n"),
 		That("echo def > bytes", "only-values < bytes | count").Puts(0),
 

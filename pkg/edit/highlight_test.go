@@ -6,13 +6,13 @@ import (
 	"runtime"
 	"testing"
 
-	"src.elv.sh/pkg/cli/term"
-	"src.elv.sh/pkg/env"
-	"src.elv.sh/pkg/eval"
-	"src.elv.sh/pkg/eval/vars"
-	"src.elv.sh/pkg/parse"
-	"src.elv.sh/pkg/testutil"
-	"src.elv.sh/pkg/tt"
+	"github.com/markusbkk/elvish/pkg/cli/term"
+	"github.com/markusbkk/elvish/pkg/env"
+	"github.com/markusbkk/elvish/pkg/eval"
+	"github.com/markusbkk/elvish/pkg/eval/vars"
+	"github.com/markusbkk/elvish/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/testutil"
+	"github.com/markusbkk/elvish/pkg/tt"
 )
 
 // High-level sanity test.

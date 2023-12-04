@@ -3,9 +3,9 @@ package term
 import (
 	"testing"
 
-	"src.elv.sh/pkg/sys/ewindows"
-	"src.elv.sh/pkg/tt"
-	"src.elv.sh/pkg/ui"
+	"github.com/markusbkk/elvish/pkg/sys/ewindows"
+	"github.com/markusbkk/elvish/pkg/tt"
+	"github.com/markusbkk/elvish/pkg/ui"
 )
 
 func TestConvertEvent(t *testing.T) {

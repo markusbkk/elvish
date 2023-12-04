@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"src.elv.sh/pkg/diag"
-	. "src.elv.sh/pkg/tt"
+	"github.com/markusbkk/elvish/pkg/diag"
+	. "github.com/markusbkk/elvish/pkg/tt"
 )
 
 func TestGetError(t *testing.T) {

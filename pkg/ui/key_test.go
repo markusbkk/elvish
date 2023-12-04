@@ -3,8 +3,8 @@ package ui
 import (
 	"testing"
 
-	"src.elv.sh/pkg/eval/vals"
-	"src.elv.sh/pkg/persistent/hash"
+	"github.com/markusbkk/elvish/pkg/eval/vals"
+	"github.com/markusbkk/elvish/pkg/persistent/hash"
 )
 
 var KTests = []struct {

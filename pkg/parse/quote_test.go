@@ -3,7 +3,7 @@ package parse
 import (
 	"testing"
 
-	. "src.elv.sh/pkg/tt"
+	. "github.com/markusbkk/elvish/pkg/tt"
 )
 
 func TestQuote(t *testing.T) {

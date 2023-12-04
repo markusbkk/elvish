@@ -9,8 +9,8 @@ import (
 	"strings"
 	"sync"
 
-	"src.elv.sh/pkg/diag"
-	"src.elv.sh/pkg/eval/vals"
+	"github.com/markusbkk/elvish/pkg/diag"
+	"github.com/markusbkk/elvish/pkg/eval/vals"
 )
 
 var (

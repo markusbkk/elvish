@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 
 	"golang.org/x/sys/windows"
-	"src.elv.sh/pkg/env"
+	"github.com/markusbkk/elvish/pkg/env"
 )
 
 func newRCPath() (string, error) {

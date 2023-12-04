@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	. "src.elv.sh/pkg/tt"
+	. "github.com/markusbkk/elvish/pkg/tt"
 )
 
 type opts struct {

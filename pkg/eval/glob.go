@@ -7,9 +7,9 @@ import (
 	"strings"
 	"unicode"
 
-	"src.elv.sh/pkg/eval/vals"
-	"src.elv.sh/pkg/glob"
-	"src.elv.sh/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/eval/vals"
+	"github.com/markusbkk/elvish/pkg/glob"
+	"github.com/markusbkk/elvish/pkg/parse"
 )
 
 // An ephemeral value generated when evaluating tilde and wildcards.

@@ -7,7 +7,7 @@ import (
 	"io"
 	"testing"
 
-	"src.elv.sh/pkg/testutil"
+	"github.com/markusbkk/elvish/pkg/testutil"
 )
 
 func TestWaitForRead(t *testing.T) {

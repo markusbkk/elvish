@@ -7,7 +7,7 @@ import (
 	"os/exec"
 	"testing"
 
-	. "src.elv.sh/pkg/eval/evaltest"
+	. "github.com/markusbkk/elvish/pkg/eval/evaltest"
 )
 
 func TestHasExternal(t *testing.T) {

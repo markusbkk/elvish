@@ -3,16 +3,16 @@ package edit
 import (
 	"errors"
 
-	"src.elv.sh/pkg/cli"
-	"src.elv.sh/pkg/cli/modes"
-	"src.elv.sh/pkg/cli/term"
-	"src.elv.sh/pkg/cli/tk"
-	"src.elv.sh/pkg/eval"
-	"src.elv.sh/pkg/eval/errs"
-	"src.elv.sh/pkg/eval/vals"
-	"src.elv.sh/pkg/parse"
-	"src.elv.sh/pkg/parse/parseutil"
-	"src.elv.sh/pkg/ui"
+	"github.com/markusbkk/elvish/pkg/cli"
+	"github.com/markusbkk/elvish/pkg/cli/modes"
+	"github.com/markusbkk/elvish/pkg/cli/term"
+	"github.com/markusbkk/elvish/pkg/cli/tk"
+	"github.com/markusbkk/elvish/pkg/eval"
+	"github.com/markusbkk/elvish/pkg/eval/errs"
+	"github.com/markusbkk/elvish/pkg/eval/vals"
+	"github.com/markusbkk/elvish/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/parse/parseutil"
+	"github.com/markusbkk/elvish/pkg/ui"
 )
 
 //elvdoc:fn binding-table

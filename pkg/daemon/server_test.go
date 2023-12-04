@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"src.elv.sh/pkg/daemon/daemondefs"
-	"src.elv.sh/pkg/daemon/internal/api"
-	. "src.elv.sh/pkg/prog/progtest"
-	"src.elv.sh/pkg/store/storetest"
-	"src.elv.sh/pkg/testutil"
+	"github.com/markusbkk/elvish/pkg/daemon/daemondefs"
+	"github.com/markusbkk/elvish/pkg/daemon/internal/api"
+	. "github.com/markusbkk/elvish/pkg/prog/progtest"
+	"github.com/markusbkk/elvish/pkg/store/storetest"
+	"github.com/markusbkk/elvish/pkg/testutil"
 )
 
 func TestProgram_TerminatesIfCannotListen(t *testing.T) {

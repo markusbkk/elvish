@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"src.elv.sh/pkg/persistent/hash"
-	"src.elv.sh/pkg/testutil"
+	"github.com/markusbkk/elvish/pkg/persistent/hash"
+	"github.com/markusbkk/elvish/pkg/testutil"
 )
 
 func TestPipe(t *testing.T) {

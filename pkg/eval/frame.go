@@ -7,11 +7,11 @@ import (
 	"os"
 	"sync"
 
-	"src.elv.sh/pkg/diag"
-	"src.elv.sh/pkg/eval/errs"
-	"src.elv.sh/pkg/parse"
-	"src.elv.sh/pkg/prog"
-	"src.elv.sh/pkg/strutil"
+	"github.com/markusbkk/elvish/pkg/diag"
+	"github.com/markusbkk/elvish/pkg/eval/errs"
+	"github.com/markusbkk/elvish/pkg/parse"
+	"github.com/markusbkk/elvish/pkg/prog"
+	"github.com/markusbkk/elvish/pkg/strutil"
 )
 
 // Frame contains information of the current running function, akin to a call

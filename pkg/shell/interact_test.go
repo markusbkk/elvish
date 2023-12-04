@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	. "src.elv.sh/pkg/prog/progtest"
-	. "src.elv.sh/pkg/testutil"
+	. "github.com/markusbkk/elvish/pkg/prog/progtest"
+	. "github.com/markusbkk/elvish/pkg/testutil"
 )
 
 func TestInteract(t *testing.T) {

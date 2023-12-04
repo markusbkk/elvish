@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"src.elv.sh/pkg/cli/clitest"
-	"src.elv.sh/pkg/cli/term"
-	"src.elv.sh/pkg/testutil"
-	"src.elv.sh/pkg/ui"
+	"github.com/markusbkk/elvish/pkg/cli/clitest"
+	"github.com/markusbkk/elvish/pkg/cli/term"
+	"github.com/markusbkk/elvish/pkg/testutil"
+	"github.com/markusbkk/elvish/pkg/ui"
 )
 
 func TestPrompt_ValueOutput(t *testing.T) {
